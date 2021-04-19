@@ -1,3 +1,11 @@
+/**
+ * Natural Comparator
+ * HDT#7 - Estructura de Datos
+ * @author Esteban Aldana Guerra 20591
+ * Refrencia de codigo:
+ * BTS.zip, Este fue el ejemplo dado el clase por nuestro catedratico
+ */
+
 import java.util.Comparator;
 
 public class NaturalComparator<E extends Comparable<E>>

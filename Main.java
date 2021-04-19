@@ -1,3 +1,11 @@
+/**
+ * Main
+ * HDT#7 - Estructura de Datos
+ * @author Esteban Aldana Guerra 20591
+ * Refrencia de codigo:
+ * BTS.zip, Este fue el ejemplo dado el clase por nuestro catedratico
+ */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -8,6 +16,7 @@ public class Main {
         File txt = null;
         FileReader fr = null;
         BufferedReader br = null;
+
 
         Scanner sc = new Scanner(System.in);
 
@@ -44,7 +53,47 @@ public class Main {
             e.printStackTrace();
         }
         ing.iterator();
+        int op = 0;
+        int op1 = 0;
+        boolean salir = true;
+    while (true)
+    
+        {
+            System.out.println(" ");
+            System.out.println("-------------------Traductor----------------");
+
+            System.out.println("A que idioma quisiera traducir su texto??");
+            System.out.println("1. Ingles");
+            System.out.println("2. Español");
+            System.out.println("3. Frances");
+            System.out.println("4. Salir");
+            op = sc.nextInt();
+            if(op == 1)
+            {
+                
+            }
+            else if(op == 2)
+            {
+                
+            }
+            else if(op == 3)
+            {
+                
+            }
+            else if(op == 4){
+                System.out.println("Gracias por usar el programa");
+                salir = false;
+                System.exit(0);
+            }
+            else{
+                System.out.println("Ingrese numeros los cuales se encuentran en el rango correspondiente");
+            }
+        }
     }
 }
+
+
+
+      
 
        

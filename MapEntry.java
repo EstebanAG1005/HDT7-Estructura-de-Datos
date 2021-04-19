@@ -1,3 +1,11 @@
+/**
+ * MapEntry
+ * HDT#7 - Estructura de Datos
+ * @author Esteban Aldana Guerra 20591
+ * Refrencia de codigo:
+ * BTS.zip, Este fue el ejemplo dado el clase por nuestro catedratico
+ */
+
 public interface MapEntry<K,V>
 {
    public boolean equals (Object o);

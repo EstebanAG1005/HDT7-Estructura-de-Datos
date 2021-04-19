@@ -1,3 +1,11 @@
+/**
+ * BinarySearchTree
+ * HDT#7 - Estructura de Datos
+ * @author Esteban Aldana Guerra 20591
+ * Refrencia de codigo:
+ * BTS.zip, Este fue el ejemplo dado el clase por nuestro catedratico
+ */
+
 import java.util.Iterator;
 import java.util.Comparator;
 
