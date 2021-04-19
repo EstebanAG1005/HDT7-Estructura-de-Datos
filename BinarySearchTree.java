@@ -129,7 +129,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
      *
      * @post Adds a value to binary search tree
      * 
-     * @param val A reference to non-null object
+     * @param value A reference to non-null object
      */
     public void add(E value)
     {
